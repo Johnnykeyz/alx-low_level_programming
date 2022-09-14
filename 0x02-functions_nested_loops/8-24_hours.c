@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_baucer - func that prints every mins of day of jack bauer, 
+ * jack_bauer - func that prints every mins of day of jack bauer, 
  * and resets mins
  * Return: 0
  */
