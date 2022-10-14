@@ -79,7 +79,7 @@ void print_all(const char * const format, ...)
 			if (*(p[J].t) == format[i])
 			{
 				printf("%s", separator);
-				p[J].t(valist);
+				p[J].f(valist);
 				separator = ", ";
 				break;
 			}
@@ -89,5 +89,4 @@ void print_all(const char * const format, ...)
 	}
 	va_end(valist);
 	printf("\n");
-}
 }
