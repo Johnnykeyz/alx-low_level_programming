@@ -29,6 +29,17 @@ void print_s(va_list s)
 }
 
 /**
+ * print_i -prints an int
+ * @i: int to be printed
+ *
+ * Return: void
+ */
+void print_i(va_list i)
+{
+	printf("%d", va_arg(i, int));
+}
+
+/**
  * print_f - prints a floats
  * @f: float th print
  *
